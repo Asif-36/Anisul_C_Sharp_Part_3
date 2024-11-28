@@ -1,15 +1,16 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-Console.WriteLine("h");
-Console.WriteLine("Enter a number to count Fact number: ");
-int number = Convert.ToInt32(Console.ReadLine());
+﻿using System;
 
-int fact = 1;
-for (int i = 1; i <= number; i++)
+class Program
 {
-    //shamim- asif
-    fact = fact * i;   //Ekhane kintu 1 hobe na, i gun hobe!!!
+    static void Main()
+    {
 
+        Console.WriteLine("Enter your name:");
+        string userName = Console.ReadLine();
+        Console.WriteLine("Hello, " + userName + "!");
+
+        Console.WriteLine("Enter your age:");
+        int age = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("You are " + age + " years old.");
+    }
 }
-Console.WriteLine($"Factorial({number}) = {fact}");
-Console.WriteLine($"Factorial({number}) once more = {fact}");
