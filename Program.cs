@@ -12,3 +12,4 @@ for (int i = 1; i <= number; i++)
 
 }
 Console.WriteLine($"Factorial({number}) = {fact}");
+Console.WriteLine($"Factorial({number}) once more = {fact}");
